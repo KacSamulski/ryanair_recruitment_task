@@ -82,6 +82,155 @@ longitude = {
     "OSL": 11.1004, "SZY": 20.9377, "LUX": 6.2044, "VDA": 34.9358, "SEA": -122.3094
 }
 
+is_island = {
+    "SXF": 0, "FCO": 0, "SNN": 0, "CHQ": 1, "ATH": 0,  # CHQ: Kreta (Grecja)
+    "BTS": 0, "LGW": 0, "LIS": 0, "EMA": 0, "LIG": 0,
+    "DTM": 0, "STN": 0, "MJV": 1,  # MJV: Murcja (Hiszpania, wybrzeże, ale nie wyspa)
+    "AGP": 0, "DUB": 0, "NYO": 0, "ACE": 1,  # ACE: Lanzarote (Wyspy Kanaryjskie)
+    "BHX": 0, "PMI": 1,  # PMI: Majorka
+    "WMI": 0, "OSR": 0, "FMM": 0, "RHO": 1,  # RHO: Rodos
+    "KRK": 0, "LCJ": 0, "TSF": 0, "CGN": 0, "BCN": 0,
+    "BLL": 0, "CIA": 0, "OPO": 0, "ALC": 0, "SKG": 0,
+    "GDN": 0, "AMS": 0, "MAN": 0, "CRL": 0, "FUE": 1,  # FUE: Fuerteventura
+    "REU": 0, "LTN": 0, "BGY": 0, "PMO": 1,  # PMO: Sycylia
+    "OTP": 0, "NCL": 0, "FAO": 0, "BRS": 0, "BVA": 0,
+    "BLQ": 0, "SVQ": 0, "SCQ": 0, "HHN": 0, "BRI": 0,
+    "CTA": 1,  # CTA: Sycylia
+    "CAG": 1,  # CAG: Sardynia
+    "TRN": 0, "NRN": 0, "MAD": 0, "RBA": 0, "MRS": 0,
+    "LPA": 1,  # LPA: Gran Canaria
+    "PIK": 0, "SOF": 0, "SDR": 0, "EDI": 0, "PSR": 0,
+    "GRO": 0, "BRU": 0, "RYG": 0, "VNO": 0, "MLA": 1,  # MLA: Malta
+    "BSL": 0, "CFU": 1,  # CFU: Korfu
+    "CCF": 0, "TFS": 1,  # TFS: Teneryfa
+    "WRO": 0, "BUD": 0, "PEG": 0, "TRS": 0, "MXP": 0,
+    "TPS": 1,  # TPS: Sycylia
+    "BDS": 0, "GOT": 0, "PSA": 0, "TLL": 0, "EIN": 0,
+    "LPL": 0, "ORK": 0, "CPH": 0, "NOC": 0, "JTR": 1,  # JTR: Santorini
+    "NDR": 0, "RIX": 0, "CRV": 0, "HAM": 0, "RAK": 0,
+    "SUF": 0, "FKB": 0, "BOH": 0, "IBZ": 1,  # IBZ: Ibiza
+    "BOD": 0, "MST": 0, "CUF": 0, "PMF": 0, "KTW": 0,
+    "CIY": 1,  # CIY: Sycylia
+    "BRE": 0, "LUZ": 0, "SZG": 0, "KIR": 0, "LBA": 0,
+    "ZAZ": 0, "KUN": 0, "RZE": 0, "GLA": 0, "VLC": 0,
+    "HAU": 0, "LIL": 0, "LEI": 0, "MPL": 0, "AHO": 1,  # AHO: Sardynia
+    "ZAD": 0, "TUF": 0, "AAR": 0, "PRG": 0, "PFO": 1,  # PFO: Cypr
+    "BFS": 0, "BZR": 0, "LRT": 0, "PUY": 1,  # PUY: Wyspa Północna (Chorwacja)
+    "VRN": 0, "BES": 0, "NTE": 0, "LRH": 0, "CDT": 0,
+    "NUE": 0, "DLE": 0, "POZ": 0, "BIQ": 0, "BZG": 0,
+    "FSC": 1,  # FSC: Korsyka
+    "FEZ": 0, "FNI": 0, "PLQ": 0, "TSR": 0, "NCE": 0,
+    "SZZ": 0, "TRF": 0, "PDL": 1,  # PDL: Azory
+    "VLL": 0, "MAH": 1,  # MAH: Minorka
+    "AGA": 0, "EGC": 0, "VGO": 0, "PGF": 0, "LEJ": 0,
+    "LNZ": 0, "EBU": 0, "BVE": 0, "BRQ": 0, "LDY": 0,
+    "GOA": 0, "XRY": 0, "TFN": 1,  # TFN: Teneryfa
+    "STR": 0, "XCR": 0, "JMK": 1,  # JMK: Mykonos
+    "TNG": 0, "AOI": 0, "VST": 0, "OUD": 0, "DNR": 0,
+    "TGD": 0, "INI": 0, "NQY": 0, "PIS": 0, "TMP": 0,
+    "TLS": 0, "CFE": 0, "RJK": 0, "VCE": 0, "DOL": 0,
+    "VXO": 0, "RDZ": 0, "OSI": 0, "PDV": 0, "LDE": 0,
+    "LCA": 1,  # LCA: Cypr
+    "SXB": 0, "WAW": 0, "CWL": 0, "OSL": 0, "SZY": 0,
+    "LUX": 0, "VDA": 0, "SEA": 0
+}
+
+is_coastal = {
+    "SXF": 0, "FCO": 1, "SNN": 1, "CHQ": 1, "ATH": 1,  # CHQ: Kreta (wyspa), ATH: nad morzem
+    "BTS": 0, "LGW": 1, "LIS": 1, "EMA": 0, "LIG": 0,
+    "DTM": 0, "STN": 0, "MJV": 1,  # MJV: Costa Cálida (Hiszpania)
+    "AGP": 1, "DUB": 1, "NYO": 0, "ACE": 1,  # ACE: Lanzarote (wyspa)
+    "BHX": 0, "PMI": 1,  # PMI: Majorka (wyspa)
+    "WMI": 0, "OSR": 0, "FMM": 0, "RHO": 1,  # RHO: Rodos (wyspa)
+    "KRK": 0, "LCJ": 0, "TSF": 1,  # TSF: Treviso (blisko Wenecji)
+    "CGN": 0, "BCN": 1, "BLL": 1,  # BLL: Billund (Jutlandia - półwysep)
+    "CIA": 0, "OPO": 1, "ALC": 1,  # ALC: Alicante (wybrzeże)
+    "SKG": 1, "GDN": 1, "AMS": 1,  # AMS: nad IJsselmeer
+    "MAN": 0, "CRL": 0, "FUE": 1,  # FUE: Fuerteventura (wyspa)
+    "REU": 1, "LTN": 0, "BGY": 0, "PMO": 1,  # PMO: Sycylia (wyspa)
+    "OTP": 0, "NCL": 1,  # NCL: Newcastle (nad rzeką, ale dostęp do morza)
+    "FAO": 1, "BRS": 1,  # BRS: Bristol (kanał morski)
+    "BVA": 0, "BLQ": 0, "SVQ": 1,  # SVQ: Sewilla (nad rzeką, ale dostęp do oceanu)
+    "SCQ": 1, "HHN": 0, "BRI": 1,  # BRI: Bari (wybrzeże Adriatyku)
+    "CTA": 1, "CAG": 1,  # Cagliari (Sardynia - wyspa)
+    "TRN": 0, "NRN": 0, "MAD": 0, "RBA": 1,  # RBA: Rabat (Maroko, wybrzeże)
+    "MRS": 1, "LPA": 1,  # LPA: Gran Canaria (wyspa)
+    "PIK": 1,  # Prestwick (Szkocja, wybrzeże)
+    "SOF": 0, "SDR": 1,  # SDR: Santander (Hiszpania, wybrzeże)
+    "EDI": 1, "PSR": 1,  # Pescara (Włochy, wybrzeże)
+    "GRO": 1, "BRU": 0, "RYG": 1,  # RYG: Torp (Norwegia, fiord)
+    "VNO": 0, "MLA": 1,  # MLA: Malta (wyspa)
+    "BSL": 0, "CFU": 1,  # CFU: Korfu (wyspa)
+    "CCF": 0, "TFS": 1,  # TFS: Teneryfa (wyspa)
+    "WRO": 0, "BUD": 0, "PEG": 0, "TRS": 1,  # TRS: Triest (Włochy, wybrzeże)
+    "MXP": 0, "TPS": 1,  # TPS: Sycylia (wyspa)
+    "BDS": 1,  # Brindisi (Włochy, wybrzeże)
+    "GOT": 1,  # Göteborg (Szwecja, wybrzeże)
+    "PSA": 0, "TLL": 1,  # Tallinn (Estonia, wybrzeże)
+    "EIN": 0, "LPL": 1,  # Liverpool (UK, wybrzeże)
+    "ORK": 1,  # Cork (Irlandia, wybrzeże)
+    "CPH": 1,  # Kopenhaga (nad cieśniną)
+    "NOC": 1,  # Irlandia (wybrzeże Atlantyku)
+    "JTR": 1,  # Santorini (wyspa)
+    "NDR": 1,  # Nadżran (Arabia Saudyjska, ale w głębi lądu) → 0? (sprawdź!)
+    "RIX": 1,  # Ryga (Łotwa, nad Bałtykiem)
+    "CRV": 1,  # Crotone (Włochy, wybrzeże)
+    "HAM": 1,  # Hamburg (nad Łabą, dostęp do morza)
+    "RAK": 1,  # Marrakesz (Maroko, ale w głębi lądu) → 0? (sprawdź!)
+    "SUF": 1,  # Lamezia Terme (Włochy, wybrzeże)
+    "FKB": 0, "BOH": 1,  # Bournemouth (UK, wybrzeże)
+    "IBZ": 1,  # Ibiza (wyspa)
+    "BOD": 1,  # Bordeaux (nad Żyrondą, dostęp do oceanu)
+    "MST": 0, "CUF": 0, "PMF": 0, "KTW": 0,
+    "CIY": 1,  # Comiso (Sycylia, wyspa)
+    "BRE": 1,  # Brema (nad Wezerą, dostęp do morza)
+    "LUZ": 0, "SZG": 0, "KIR": 1,  # Kerry (Irlandia, wybrzeże)
+    "LBA": 0, "ZAZ": 0, "KUN": 0, "RZE": 0, "GLA": 1,
+    "VLC": 1,  # Walencja (Hiszpania, wybrzeże)
+    "HAU": 1,  # Haugesund (Norwegia, wybrzeże)
+    "LIL": 0, "LEI": 1,  # Almería (Hiszpania, wybrzeże)
+    "MPL": 1,  # Montpellier (Francja, wybrzeże)
+    "AHO": 1,  # Alghero (Sardynia, wyspa)
+    "ZAD": 1,  # Zadar (Chorwacja, wybrzeże)
+    "TUF": 0, "AAR": 1,  # Aarhus (Dania, półwysep)
+    "PRG": 0, "PFO": 1,  # Pafos (Cypr, wyspa)
+    "BFS": 1,  # Belfast (UK, wybrzeże)
+    "BZR": 1,  # Béziers (Francja, wybrzeże)
+    "LRT": 1,  # Lorient (Francja, wybrzeże)
+    "PUY": 1,  # Pula (Chorwacja, wybrzeże)
+    "VRN": 0, "BES": 1,  # Breść (Francja, wybrzeże)
+    "NTE": 1,  # Nantes (nad Loarą, dostęp do oceanu)
+    "LRH": 1,  # La Rochelle (Francja, wybrzeże)
+    "CDT": 1,  # Castellón (Hiszpania, wybrzeże)
+    "NUE": 0, "DLE": 0, "POZ": 0, "BIQ": 1,  # Biarritz (Francja, wybrzeże)
+    "BZG": 0, "FSC": 1,  # Figari (Korsyka, wyspa)
+    "FEZ": 0, "FNI": 1,  # Nîmes (Francja, ale w głębi lądu) → 0? (sprawdź!)
+    "PLQ": 0, "TSR": 0, "NCE": 1,  # Nicea (Francja, wybrzeże)
+    "SZZ": 1,  # Szczecin (Polska, nad Odrą, dostęp do morza)
+    "TRF": 1,  # Sandefjord (Norwegia, wybrzeże)
+    "PDL": 1,  # Ponta Delgada (Azory, wyspa)
+    "VLL": 0, "MAH": 1,  # Menorca (wyspa)
+    "AGA": 1,  # Agadir (Maroko, wybrzeże)
+    "EGC": 0, "VGO": 1,  # Vigo (Hiszpania, wybrzeże)
+    "PGF": 1,  # Perpignan (Francja, wybrzeże)
+    "LEJ": 0, "LNZ": 0, "EBU": 0, "BVE": 0, "BRQ": 0,
+    "LDY": 1,  # Londonderry (UK, wybrzeże)
+    "GOA": 1,  # Genua (Włochy, wybrzeże)
+    "XRY": 1,  # Jerez (Hiszpania, wybrzeże)
+    "TFN": 1,  # Teneryfa Północna (wyspa)
+    "STR": 0, "XCR": 0, "JMK": 1,  # Mykonos (wyspa)
+    "TNG": 1,  # Tanger (Maroko, wybrzeże)
+    "AOI": 0, "VST": 0, "OUD": 0, "DNR": 1,  # Dinard (Francja, wybrzeże)
+    "TGD": 0, "INI": 0, "NQY": 1,  # Newquay (UK, wybrzeże)
+    "PIS": 0, "TMP": 0, "TLS": 0, "CFE": 0, "RJK": 1,  # Rijeka (Chorwacja, wybrzeże)
+    "VCE": 1,  # Wenecja (Włochy, laguna)
+    "DOL": 1,  # Deauville (Francja, wybrzeże)
+    "VXO": 0, "RDZ": 0, "OSI": 0, "PDV": 0, "LDE": 0,
+    "LCA": 1,  # Larnaka (Cypr, wyspa)
+    "SXB": 0, "WAW": 0, "CWL": 1,  # Cardiff (UK, wybrzeże)
+    "OSL": 0, "SZY": 0, "LUX": 0, "VDA": 0, "SEA": 1   # Seattle (USA, wybrzeże Pacyfiku)
+}
+
 def coordinate_imputer(df, column, map_lat, map_long):
     df[f"{column}Latitude"] = df[column].map(map_lat)
     df[f"{column}Longitude"] = df[column].map(map_long)
